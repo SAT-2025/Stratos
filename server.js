@@ -34,6 +34,7 @@ app.post("/enviar", upload.single("file"), async (req, res) => {
     ];
 
     // Ruta de la imagen de firma
+    console.log(path.join(__dirname, 'public', 'images', 'firma.png'));
     const firmaImagenPath = path.join(__dirname, 'public', 'images', 'firma.png');// Ruta completa a la imagen
     const firmaImagenBuffer = fs.readFileSync(firmaImagenPath); // Leer la imagen desde el disco
 
