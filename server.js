@@ -34,7 +34,7 @@ app.post("/enviar", upload.single("file"), async (req, res) => {
     ];
 
     // Ruta de la imagen de firma
-    const firmaImagenPath = path.join(__dirname, "public", "images", "firma.png");
+    const firmaImagenPath = path.join(__dirname, "public", "images", "firma.PNG");
     
     console.log("Buscando archivo en:", firmaImagenPath);
 
