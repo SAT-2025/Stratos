@@ -34,8 +34,16 @@ app.post("/enviar", upload.single("file"), async (req, res) => {
     ];
 
     // Ruta de la imagen de firma
-    console.log(path.join(__dirname, 'public', 'images', 'firma.png'));
-    const firmaImagenPath = path.join(__dirname, 'public', 'images', 'firma.png');// Ruta completa a la imagen
+    const firmaImagenPath = path.join(__dirname, "public", "images", "firma.png");
+    
+    console.log("Buscando archivo en:", firmaImagenPath);
+
+    // Verificar si la imagen existe antes de leerla
+    if (!fs.existsSync(firmaImagenPath)) {
+      console.error("Error: La imagen de firma no existe en la ruta especificada.");
+      return res.status(500).json({ error: "La imagen de firma no se encuentra en el servidor." });
+    }
+
     const firmaImagenBuffer = fs.readFileSync(firmaImagenPath); // Leer la imagen desde el disco
 
     // Adjuntar la imagen de firma
@@ -97,7 +105,7 @@ app.post("/enviar", upload.single("file"), async (req, res) => {
   }
 });
 
-// Iniciar el servidor en Windows
+// Iniciar el servidor
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
