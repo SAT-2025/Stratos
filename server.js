@@ -1,22 +1,39 @@
-require("dotenv").config();
-const express = require("express");
-const cors = require("cors");
-const multer = require("multer");
-const axios = require("axios");
-const fs = require("fs"); // Requiere el módulo fs para leer archivos
-const path = require("path"); // Para manejar las rutas de archivos
+const ExcelJS = require('exceljs');
+const PDFDocument = require('pdfkit');
 
-const app = express();
-const PORT = process.env.PORT || 5000;
+// Ruta de conversión de archivo
+async function convertirExcelAPdf(fileBuffer) {
+  const workbook = new ExcelJS.Workbook();
+  await workbook.xlsx.load(fileBuffer); // Cargar archivo Excel
 
-app.use(cors());
-app.use(express.json());
+  // Crear un documento PDF
+  const doc = new PDFDocument();
+  const chunks = [];
 
-// Configurar multer para recibir archivos en memoria
-const storage = multer.memoryStorage();
-const upload = multer({ storage });
+  doc.on('data', (chunk) => chunks.push(chunk));
+  doc.on('end', () => {
+    const pdfBuffer = Buffer.concat(chunks); // Obtener el PDF como buffer
+    // Aquí puedes devolver el buffer como resultado de la conversión
+    return pdfBuffer;
+  });
 
-// Ruta para manejar la solicitud de envío de correo
+  doc.text('Contenido del archivo Excel:', { continued: true });
+
+  // Aquí puedes procesar el contenido del archivo Excel y agregarlo al PDF
+  workbook.eachSheet((sheet) => {
+    doc.text(sheet.name);
+    sheet.eachRow((row, rowNumber) => {
+      row.eachCell((cell, colNumber) => {
+        doc.text(cell.value, { continued: true });
+      });
+      doc.text('\n');
+    });
+  });
+
+  doc.end(); // Finalizar la creación del PDF
+}
+
+// En la ruta donde envías el correo
 app.post("/enviar", upload.single("file"), async (req, res) => {
   try {
     const { email, nombresCompletos } = req.body;
@@ -26,40 +43,14 @@ app.post("/enviar", upload.single("file"), async (req, res) => {
       return res.status(400).json({ error: "Faltan datos necesarios o archivo." });
     }
 
-    // Agregar los destinatarios (correo del usuario desde el formulario + correo por defecto)
-    const destinatarios = [
-      { email: email }, // Correo del usuario enviado en el formulario
-      { email: process.env.EMAIL_USUARIO },
-      { email: process.env.EMAIL_USUARIO2 } // Correo por defecto
-    ];
+    // Convertir el archivo Excel a PDF
+    const pdfBuffer = await convertirExcelAPdf(req.file.buffer);
 
-    // Ruta de la imagen de firma
-    const firmaImagenPath = path.join(__dirname, "public", "images", "firma.PNG");
-    
-    console.log("Buscando archivo en:", firmaImagenPath);
-
-    // Verificar si la imagen existe antes de leerla
-    if (!fs.existsSync(firmaImagenPath)) {
-      console.error("Error: La imagen de firma no existe en la ruta especificada.");
-      return res.status(500).json({ error: "La imagen de firma no se encuentra en el servidor." });
-    }
-
-    const firmaImagenBuffer = fs.readFileSync(firmaImagenPath); // Leer la imagen desde el disco
-
-    // Adjuntar la imagen de firma
-    const firmaImagen = {
-      content: firmaImagenBuffer.toString("base64"), // Convertir archivo a base64
-      filename: "firma.png", // Nombre de la imagen de firma
-      type: "image/png",
-      disposition: "inline", // Importante para mostrarla en el cuerpo del correo
-      content_id: "firma_cid", // Este ID se usará en el HTML del correo
-    };
-
-    // Configurar el cuerpo del correo con la imagen incrustada en el HTML
+    // Adjuntar el archivo PDF en lugar del Excel
     const mailData = {
       personalizations: [
         {
-          to: destinatarios,
+          to: [{ email: email }],
           subject: "Análisis de la herramienta SAT",
         },
       ],
@@ -69,7 +60,7 @@ app.post("/enviar", upload.single("file"), async (req, res) => {
           type: "text/html",
           value: `
             <p>Estimado/a ${nombresCompletos},</p>
-            <p>Adjunto encontrará el análisis realizado con la herramienta SAT.</p>
+            <p>Adjunto encontrará el análisis realizado con la herramienta SAT en formato PDF.</p>
             <p>Si tiene alguna duda, no dude en responder a este correo.</p>
             <br>
             <p>Saludos,</p>
@@ -81,12 +72,12 @@ app.post("/enviar", upload.single("file"), async (req, res) => {
       ],
       attachments: [
         {
-          content: req.file.buffer.toString("base64"), // Convertir archivo a base64
-          filename: req.file.originalname,
-          type: req.file.mimetype,
-          disposition: "attachment",
+          content: pdfBuffer.toString("base64"), // Convertir PDF a base64
+          filename: 'analisis.pdf', // El nombre del archivo PDF
+          type: 'application/pdf', // Tipo de contenido
+          disposition: "attachment", // Adjuntar el archivo
         },
-        firmaImagen, // Adjuntar la firma como inline
+        firmaImagen, // Firma como inline
       ],
     };
 
@@ -103,9 +94,4 @@ app.post("/enviar", upload.single("file"), async (req, res) => {
     console.error("Error al enviar correo:", error.response ? error.response.data : error);
     res.status(500).json({ error: "Hubo un problema al enviar el correo." });
   }
-});
-
-// Iniciar el servidor
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
