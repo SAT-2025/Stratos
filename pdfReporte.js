@@ -21,9 +21,19 @@ const ESTRELLA_PATH = path.join(__dirname, 'public', 'images', 'estrella.png');
 const MARGEN = 40;
 const ANCHO_UTIL = 595.28 - MARGEN * 2; // A4 en puntos
 
+// El frontend inicializa TODAS las claves tabla1..tabla99 como {} desde el
+// arranque (ver RespuestasContext.js), sin importar qué versión (v.1/v.2)
+// esté llenando la persona -- así que "respuestas.tabla1" existe SIEMPRE,
+// aunque esté vacío, y un simple `if (respuestas.tabla1)` es siempre true
+// porque un objeto vacío también es truthy en JS. Hay que revisar que
+// realmente tenga respuestas adentro, no solo que la clave exista.
+function tieneRespuestas(obj) {
+  return !!obj && Object.keys(obj).length > 0;
+}
+
 function detectarTrack(respuestas) {
-  if (respuestas && respuestas.tabla1) return TRACK_A;
-  if (respuestas && respuestas.tabla11) return TRACK_B;
+  if (tieneRespuestas(respuestas && respuestas.tabla1)) return TRACK_A;
+  if (tieneRespuestas(respuestas && respuestas.tabla11)) return TRACK_B;
   return null;
 }
 
