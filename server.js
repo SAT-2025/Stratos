@@ -32,8 +32,7 @@ function construirFirmaAdjunto() {
   return {
     content: firmaImagenBase64,
     filename: "firma.png",
-    type: "image/png",
-    disposition: "inline",
+    content_type: "image/png",
     content_id: "firma_cid",
   };
 }
@@ -51,19 +50,21 @@ function construirHtmlCorreo(nombresCompletos) {
   `;
 }
 
-// Envía un correo por SendGrid. `destinatarios` es un arreglo de {email},
-// `adjuntos` un arreglo de objetos ya en el formato que espera la API de
-// SendGrid (content/filename/type/disposition[/content_id]).
-async function enviarCorreoSendGrid({ destinatarios, asunto, html, adjuntos }) {
+// Envía un correo por Resend. `destinatarios` es un arreglo de {email},
+// `adjuntos` un arreglo de objetos en el formato que espera la API de Resend
+// (content/filename/content_type[/content_id] -- un adjunto es inline
+// cuando trae content_id, y es un adjunto normal cuando no lo trae).
+async function enviarCorreoResend({ destinatarios, asunto, html, adjuntos }) {
   const mailData = {
-    personalizations: [{ to: destinatarios, subject: asunto }],
-    from: { email: process.env.EMAIL_SENDER },
-    content: [{ type: "text/html", value: html }],
+    from: process.env.EMAIL_SENDER,
+    to: destinatarios.map((d) => d.email),
+    subject: asunto,
+    html,
     attachments: adjuntos,
   };
-  await axios.post("https://api.sendgrid.com/v3/mail/send", mailData, {
+  await axios.post("https://api.resend.com/emails", mailData, {
     headers: {
-      Authorization: `Bearer ${process.env.SENDGRID_API_KEY}`,
+      Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
       "Content-Type": "application/json",
     },
   });
@@ -105,8 +106,9 @@ app.post("/login", (req, res) => {
 // El cliente recibe SOLO el PDF. El equipo interno de Stratos (EMAIL_USUARIO
 // / EMAIL_USUARIO2) sigue recibiendo, además del PDF, el Excel editable tal
 // cual lo manda el frontend -- lo siguen necesitando para su propio trabajo.
-// Como SendGrid no permite adjuntos distintos por destinatario dentro de un
-// mismo envío, esto requiere dos llamadas separadas a la API, no una.
+// Como Resend, igual que SendGrid, no permite adjuntos distintos por
+// destinatario dentro de un mismo envío, esto requiere dos llamadas
+// separadas a la API, no una.
 app.post("/enviar", upload.single("file"), async (req, res) => {
   try {
     const { email, nombresCompletos, respuestas: respuestasRaw } = req.body;
@@ -137,20 +139,18 @@ app.post("/enviar", upload.single("file"), async (req, res) => {
     const pdfAdjunto = {
       content: pdfBuffer.toString("base64"),
       filename: "Reporte_SAT.pdf",
-      type: "application/pdf",
-      disposition: "attachment",
+      content_type: "application/pdf",
     };
     const excelAdjunto = {
       content: req.file.buffer.toString("base64"),
       filename: req.file.originalname,
-      type: req.file.mimetype,
-      disposition: "attachment",
+      content_type: req.file.mimetype,
     };
 
     const html = construirHtmlCorreo(nombresCompletos);
 
     // Correo al cliente: solo el PDF, nunca el Excel.
-    await enviarCorreoSendGrid({
+    await enviarCorreoResend({
       destinatarios: [{ email }],
       asunto: "Análisis de la herramienta SAT",
       html,
@@ -160,7 +160,7 @@ app.post("/enviar", upload.single("file"), async (req, res) => {
     // Copia interna: PDF + Excel editable, para uso propio del equipo.
     const internos = [process.env.EMAIL_USUARIO, process.env.EMAIL_USUARIO2].filter(Boolean).map((e) => ({ email: e }));
     if (internos.length > 0) {
-      await enviarCorreoSendGrid({
+      await enviarCorreoResend({
         destinatarios: internos,
         asunto: "Análisis de la herramienta SAT (copia interna, incluye Excel)",
         html,
