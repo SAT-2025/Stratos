@@ -1,0 +1,1353 @@
+{
+  "TRACK_A": [
+    {
+      "key": "tabla1",
+      "numero": 1,
+      "titulo": "ADMINISTRACIÓN",
+      "preguntas": [
+        {
+          "id": 1,
+          "texto": "1) ¿Cuenta con una política de privacidad?",
+          "planAccion": "Generar e implementar políticas de privacidad."
+        },
+        {
+          "id": 2,
+          "texto": "2) ¿Se realizan revisiones anuales a la política de privacidad?",
+          "planAccion": "Establecer un proceso de revisión periódica de las políticas y procedimientos de privacidad."
+        },
+        {
+          "id": 3,
+          "texto": "3) ¿Se comunica al personal interno las políticas de privacidad y sus consecuencias por incumplimiento?",
+          "planAccion": "Implementar un proceso formal de comunicación de las políticas de privacidad y sus consecuencias por incumplimiento."
+        },
+        {
+          "id": 4,
+          "texto": "4) ¿Se cuenta con un programa de comunicación?",
+          "planAccion": "Desarrollar e implementar un programa de comunicación formal."
+        },
+        {
+          "id": 5,
+          "texto": "5) ¿Se realizan exámenes o evaluaciones para validar que el personal comprende las políticas?",
+          "planAccion": "Implementar exámenes o evaluaciones periódicas para verificar la comprensión de las políticas."
+        },
+        {
+          "id": 6,
+          "texto": "6) ¿Cuenta con responsables para desarrollar, documentar, implementar, ejecutar, monitorear y actualizar las políticas de privacidad?",
+          "planAccion": "Generar e implementar políticas de privacidad que especifiquen los responsables para desarrollar, documentar, implementar, ejecutar, monitorear y actualizar las políticas de privacidad."
+        },
+        {
+          "id": 7,
+          "texto": "7) ¿Se tiene un proceso para la aprobación de las políticas y procedimientos de privacidad o sus modificaciones?",
+          "planAccion": "Generar e implementar políticas y procedimientos de privacidad que sean revisadas y aprobadas por la Gerencia."
+        },
+        {
+          "id": 8,
+          "texto": "8) ¿Sus políticas y procedimientos son revisados y comparados con los requerimientos de las leyes, normativas y/o regulaciones aplicables?",
+          "planAccion": "Generar, implementar y revisar periódicamente que las políticas y procedimientos de privacidad cumplan con los requerimientos de las leyes y regulaciones aplicables."
+        },
+        {
+          "id": 9,
+          "texto": "9) ¿Cuentan con políticas y procedimientos de clasificación de la información que incluya la clasificación de datos personales?",
+          "planAccion": "Generar un programa de seguridad /ciberseguridad donde se consideren los lineamientos para la clasificación de la información incluyendo aquella que contiene datos personales."
+        },
+        {
+          "id": 10,
+          "texto": "10) ¿Cuenta con un registro de actividades de tratamiento de datos efectuado bajo su responsabilidad?",
+          "planAccion": "Generar un programa de seguridad /ciberseguridad donde se consideren los lineamientos para la clasificación de la información incluyendo aquella que contiene datos personales."
+        },
+        {
+          "id": 11,
+          "texto": "11) ¿Existe un proceso de análisis y evaluación de riesgos de activos donde se manejan datos personales?",
+          "planAccion": "Implementar periódicamente un proceso de análisis de riesgos de datos personales, así como desarrollar y actualizar el plan de tratamiento a dichos riesgos."
+        },
+        {
+          "id": 12,
+          "texto": "12) ¿Se hacen revisiones de los contratos para asegurar su consistencia con políticas y procedimientos de privacidad?",
+          "planAccion": "Implementar un proceso de revisión periódica de contratos para garantizar su alineación con las políticas y procedimientos de privacidad."
+        },
+        {
+          "id": 13,
+          "texto": "13) ¿Se toma alguna acción específica al detectar una inconsistencia en los contratos?",
+          "planAccion": "Establecer y aplicar un procedimiento para corregir inconsistencias en los contratos, asegurando su cumplimiento con las políticas y normativas de privacidad."
+        },
+        {
+          "id": 14,
+          "texto": "14) ¿Los contratos que usted maneja incluyen cláusulas de privacidad?",
+          "planAccion": "Asegurar que todos los contratos incluyan cláusulas de privacidad que cumplan con las normativas y políticas de protección de datos."
+        },
+        {
+          "id": 15,
+          "texto": "15) ¿Se evalúan impactos potenciales a la privacidad al actualizar o implementar procesos que involucren datos personales?",
+          "planAccion": "Llevar a cabo una evaluación del impacto al modificar o implementar nuevos procesos donde se involucre datos personales."
+        },
+        {
+          "id": 16,
+          "texto": "16) ¿Cuentan con un programa documentado para gestionar incidentes y violaciones de privacidad?",
+          "planAccion": "Desarrollar e implementar un programa documentado para la gestión de incidentes y violaciones de privacidad, incluyendo procedimientos de notificación, investigación y remediación."
+        },
+        {
+          "id": 17,
+          "texto": "17) ¿Dentro del proceso de gestión de incidentes y violaciones de privacidad, existen sanciones por incumplimiento?",
+          "planAccion": "Definir e implementar sanciones claras y proporcionales por incumplimiento dentro del proceso de gestión de incidentes y violaciones de privacidad."
+        },
+        {
+          "id": 18,
+          "texto": "18) ¿Se cuentan con los recursos necesarios para implementación y soporte de las políticas de privacidad?",
+          "planAccion": "Asegurar el compromiso de la Alta Dirección con la protección y privacidad de datos personales."
+        },
+        {
+          "id": 19,
+          "texto": "19) ¿Se establecen aptitudes requeridas a cumplir por parte del personal responsable de la proteger la privacidad y seguridad de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan las aptitudes requeridas que debe cumplir el personal responsable de proteger la privacidad y seguridad de datos personales."
+        },
+        {
+          "id": 20,
+          "texto": "20) ¿Se identifican y atienden cambios en los requerimientos de privacidad como resultado de diferencias de jurisdicción en donde la Compañía opera?",
+          "planAccion": "Generar e implementar procedimientos para identificar y atender cambios en los requerimientos de privacidad."
+        }
+      ]
+    },
+    {
+      "key": "tabla2",
+      "numero": 2,
+      "titulo": "ACUERDO, AVISO & COMUNICACIÓN",
+      "preguntas": [
+        {
+          "id": 21,
+          "texto": "1) ¿Se emiten avisos de privacidad a los titulares/interesados?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que se deben emitir avisos de privacidad."
+        },
+        {
+          "id": 22,
+          "texto": "2) ¿Se asegura de que los datos personales que se trata en la Compañía son necesarios, adecuados y relevantes en relación con las finalidades para las cuales se obtuvieron?",
+          "planAccion": "Implementar un proceso de revisión y validación para asegurar que los datos personales tratados sean necesarios, adecuados y relevantes según las finalidades para las cuales fueron obtenidos."
+        },
+        {
+          "id": 23,
+          "texto": "3) ¿Se hace uso de cookies, web beacons u otras tecnologías similares para la obtención de datos personales?",
+          "planAccion": "Establecer y documentar el uso de cookies, web beacons u otras tecnologías similares, asegurando que se obtenga el consentimiento informado de los usuarios y se cumpla con las normativas de privacidad aplicables."
+        },
+        {
+          "id": 24,
+          "texto": "4) ¿En el aviso de privacidad se menciona el uso de cookies, web beacons u otras tecnologías similares para la obtención de datos personales?",
+          "planAccion": "Asegurar que el aviso de privacidad incluya información clara sobre el uso de cookies, web beacons y otras tecnologías similares para la obtención de datos personales, detallando su propósito y obteniendo el consentimiento adecuado de los usuarios."
+        },
+        {
+          "id": 25,
+          "texto": "5) ¿En el aviso de privacidad emitido al titular se incluye el nombre de la persona física, o razón social?",
+          "planAccion": "Asegurar que el aviso de privacidad incluya el nombre de la persona física o la razón social de la entidad responsable del tratamiento de los datos personales, conforme a las regulaciones de privacidad aplicables."
+        },
+        {
+          "id": 26,
+          "texto": "6) ¿En el aviso de privacidad emitido al titular se incluye el domicilio completo del responsable (calle, número, barrio, ciudad y código postal)?",
+          "planAccion": "Garantizar que el aviso de privacidad incluya el domicilio completo del responsable del tratamiento de los datos personales, detallando calle, número, barrio, ciudad y código postal, conforme a las normativas vigentes."
+        },
+        {
+          "id": 27,
+          "texto": "7) ¿El domicilio incluido en el aviso de privacidad es aquel que tiene el responsable para recibir notificaciones?",
+          "planAccion": "Verificar que el domicilio incluido en el aviso de privacidad sea el mismo que el responsable tiene registrado para recibir notificaciones, y actualizarlo si es necesario."
+        },
+        {
+          "id": 28,
+          "texto": "8) ¿Usted recaba datos personales, como parte de sus actividades de trabajo?",
+          "planAccion": "Verificar y documentar las actividades que implican la recolección de datos personales, asegurando que se realice de acuerdo con las políticas de privacidad y las regulaciones aplicables."
+        },
+        {
+          "id": 29,
+          "texto": "9) ¿Usted recaba datos personales sensibles, como parte de sus actividades de trabajo?",
+          "planAccion": "Verificar y documentar si se recaban datos personales sensibles como parte de las actividades de trabajo, y asegurar que se sigan procedimientos especiales de protección y obtención de consentimiento explícito para su tratamiento."
+        },
+        {
+          "id": 30,
+          "texto": "10) ¿Se realizan los esfuerzos para que los datos personales tratados sean los mínimos necesarios?",
+          "planAccion": "Implementar un proceso de revisión y validación para asegurar que solo se recopilen y traten los datos personales estrictamente necesarios para cumplir con las finalidades específicas, minimizando la recopilación de información."
+        },
+        {
+          "id": 31,
+          "texto": "11) ¿Las finalidades del tratamiento de datos son para mercadotecnia, publicidad, o de prospección comercial?",
+          "planAccion": "Asegurar que el tratamiento de datos personales para fines de mercadotecnia, publicidad o prospección comercial esté claramente especificado en el aviso de privacidad, obteniendo el consentimiento explícito de los titulares antes de realizar cualquier actividad relacionada."
+        },
+        {
+          "id": 32,
+          "texto": "12) ¿Distingue entre las finalidades del tratamiento de datos que son necesarias para la realización de sus actividades, de aquellas que no?",
+          "planAccion": "Establecer un proceso claro para distinguir entre las finalidades del tratamiento de datos necesarias para la realización de actividades esenciales y aquellas que no lo son, asegurando que solo se traten los datos necesarios para cumplir con los fines establecidos."
+        },
+        {
+          "id": 33,
+          "texto": "13) ¿Realiza tratamiento de datos para otros fines que no son parte de sus actividades?",
+          "planAccion": "Evaluar y documentar cualquier tratamiento de datos realizado para fines que no son parte de las actividades principales de la empresa, y asegurarse de obtener el consentimiento explícito de los titulares antes de llevar a cabo dicho tratamiento."
+        },
+        {
+          "id": 34,
+          "texto": "14) ¿Se realizan transferencias de información que contiene datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan los lineamientos de los avisos de privacidad incluyendo la transferencia de información."
+        },
+        {
+          "id": 35,
+          "texto": "15) ¿Informa a quién realiza las transferencias de información con datos personales?",
+          "planAccion": "Asegurar que el aviso de privacidad informe claramente a quién se realizan las transferencias de datos personales, especificando los destinatarios, el propósito de la transferencia y las medidas de protección adoptadas."
+        },
+        {
+          "id": 36,
+          "texto": "16) ¿Informa las finalidades de las transferencias?",
+          "planAccion": "Asegurar que el aviso de privacidad detalle las finalidades específicas de las transferencias de datos personales, proporcionando transparencia sobre cómo se utilizarán los datos por parte de los destinatarios."
+        },
+        {
+          "id": 37,
+          "texto": "17) ¿Distingue entre transferencias que requieren consentimiento de las que no?",
+          "planAccion": "Establecer un proceso para distinguir entre las transferencias de datos personales que requieren consentimiento y aquellas que no, garantizando que se obtenga el consentimiento explícito cuando sea necesario y cumpliendo con las normativas aplicables."
+        },
+        {
+          "id": 38,
+          "texto": "18) ¿Existen transferencias de datos personales que requieren consentimiento?",
+          "planAccion": "Identificar y documentar las transferencias de datos personales que requieren consentimiento explícito, asegurándose de obtener dicho consentimiento antes de proceder con las transferencias, conforme a las regulaciones de privacidad aplicables."
+        },
+        {
+          "id": 39,
+          "texto": "19) ¿Existe una cláusula para que el titular acepte o no la transferencia de sus datos personales?",
+          "planAccion": "Incluir una cláusula específica en el aviso de privacidad que permita al titular aceptar o rechazar la transferencia de sus datos personales, asegurando que el consentimiento sea claro, informado y obtenido de manera explícita."
+        },
+        {
+          "id": 40,
+          "texto": "20) ¿Se informa sobre las opciones y medios para que el titular limite el uso y divulgación de sus datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan los lineamientos de los avisos de privacidad incluyendo el uso y divulgación de datos."
+        },
+        {
+          "id": 41,
+          "texto": "21) ¿El aviso de privacidad se encuentra en su página de internet?",
+          "planAccion": "Asegurar que el aviso de privacidad esté disponible y fácilmente accesible en la página web de la Compañía, para que los titulares puedan consultarlo en cualquier momento."
+        },
+        {
+          "id": 42,
+          "texto": "22) ¿Utiliza en su página de Internet cookies, web beacons o tecnologías similares?",
+          "planAccion": "Establecer un aviso de cookies en la página de Internet que informe sobre el uso de cookies, web beacons u otras tecnologías similares, especificando su propósito y solicitando el consentimiento explícito de los usuarios para su uso."
+        },
+        {
+          "id": 43,
+          "texto": "23) ¿Se informa sobre el tipo de datos personales que se obtienen a través de cookies, web beacons o tecnologías similares?",
+          "planAccion": "Asegurar que el aviso de cookies en la página web informe claramente sobre el tipo de datos personales que se obtienen mediante el uso de cookies, web beacons o tecnologías similares, detallando el propósito de la recolección y proporcionando la opción de aceptar o rechazar dichas tecnologías."
+        },
+        {
+          "id": 44,
+          "texto": "24) ¿Se informa sobre las finalidades del tratamiento de datos recabados a través de cookies, web beacons o tecnologías similares?",
+          "planAccion": "Incluir en el aviso de cookies una descripción detallada de las finalidades del tratamiento de los datos recabados mediante cookies, web beacons o tecnologías similares, asegurando que los usuarios comprendan el propósito de la recolección y brindándoles la opción de aceptar o rechazar dichas tecnologías."
+        },
+        {
+          "id": 45,
+          "texto": "25) ¿Se informa si se transfieren los datos personales que se obtienen a través de estas tecnologías, a quién y para qué finalidades?",
+          "planAccion": "Asegurar que el aviso de cookies informe si los datos personales obtenidos a través de cookies, web beacons u otras tecnologías similares serán transferidos a terceros, especificando los destinatarios y las finalidades de dicha transferencia."
+        },
+        {
+          "id": 46,
+          "texto": "26) ¿Informa sobre la forma en que se podrán deshabilitar estas herramientas informáticas, o bien, informa el lugar donde se puede obtener mayor información al respecto?",
+          "planAccion": "Incluir en el aviso de cookies información clara sobre cómo los usuarios pueden deshabilitar las cookies, web beacons o tecnologías similares, o bien, proporcionar un enlace o detalles sobre el lugar donde pueden obtener más información para gestionar sus preferencias de privacidad."
+        },
+        {
+          "id": 47,
+          "texto": "27) ¿Se describen los medios y procedimientos para facilitar a los titulares el ejercicio de sus derechos en relación al tratamiento de datos personales?",
+          "planAccion": "Incluir en el aviso de privacidad los medios y procedimientos detallados para que los titulares puedan ejercer sus derechos en relación al tratamiento de sus datos personales, como el acceso, rectificación, cancelación, oposición, portabilidad o limitación del tratamiento, proporcionando información clara sobre cómo realizar estas solicitudes."
+        },
+        {
+          "id": 48,
+          "texto": "28) ¿Se informa dónde se puede consultar mayor información sobre el procedimiento para el ejercicio de derechos de los titulares?",
+          "planAccion": "Incluir en el aviso de privacidad información sobre el lugar o canal donde los titulares pueden consultar detalles adicionales sobre el procedimiento para el ejercicio de sus derechos, como un enlace a una página web o un contacto específico dentro de la organización."
+        },
+        {
+          "id": 49,
+          "texto": "29) ¿Se describen los medios y procedimientos para la atención de solicitudes de revocación del consentimiento informando, al menos, requisitos; mecanismos de acreditación de la identidad del titular o su representante; la información o documentación que deberá acompañar la solicitud; los plazos y los medios de respuesta?",
+          "planAccion": "Incluir en el aviso de privacidad y en los procedimientos internos una descripción detallada de los medios y pasos para atender las solicitudes de revocación del consentimiento, especificando los requisitos, mecanismos de acreditación de identidad, la documentación necesaria, los plazos para la respuesta y los medios a través de los cuales se gestionarán las solicitudes."
+        },
+        {
+          "id": 50,
+          "texto": "30) ¿Se describen los medios y el procedimiento para comunicar los cambios en el aviso de privacidad?",
+          "planAccion": "Incluir en el aviso de privacidad un apartado que explique los medios y el procedimiento para comunicar cualquier cambio en el mismo, especificando cómo se informará a los titulares (por ejemplo, a través de la página web, correo electrónico, notificación directa, etc.) y el plazo de antelación para que puedan conocer las actualizaciones."
+        },
+        {
+          "id": 51,
+          "texto": "31) ¿Se informa sobre el mecanismo para que el titular pueda manifestar su negativa al tratamiento de sus datos personales para aquellas finalidades que no son necesarias?",
+          "planAccion": "Incluir en el aviso de privacidad un mecanismo claro que permita al titular manifestar su negativa al tratamiento de sus datos personales para aquellas finalidades que no sean necesarias, detallando los pasos a seguir y cómo se gestionará dicha solicitud."
+        },
+        {
+          "id": 52,
+          "texto": "32) ¿Se proporciona el aviso de privacidad a los titulares antes de recopilar sus datos?",
+          "planAccion": "Asegurar que el aviso de privacidad se proporcione a los titulares antes de recopilar sus datos personales, garantizando que tengan tiempo suficiente para leerlo y comprenderlo, y obteniendo su consentimiento explícito antes de realizar cualquier tratamiento."
+        },
+        {
+          "id": 53,
+          "texto": "33) ¿Existen motivos específicos por los cuales no se pueda dar a conocer el aviso de privacidad a los titulares, y se manejan medidas compensatorias en estos casos?",
+          "planAccion": "Establecer y documentar los casos excepcionales en los que no se pueda proporcionar el aviso de privacidad a los titulares, definiendo las razones específicas para estas excepciones. Además, implementar medidas compensatorias, como la provisión del aviso de privacidad en etapas posteriores o la adopción de mecanismos alternativos para garantizar que los titulares reciban la información necesaria de manera oportuna."
+        },
+        {
+          "id": 54,
+          "texto": "34) Cuando obtiene datos de forma indirecta, ya sea a través de una transferencia o fuente de acceso público, y el tratamiento implica contacto con el titular ¿da a conocer el aviso de privacidad al primer contacto con éste (aplica cuando el tratamiento requiera el contacto entre el responsable y el titular)?",
+          "planAccion": "Asegurar que, cuando se obtienen datos de forma indirecta (ya sea por transferencia o de fuentes públicas) y el tratamiento implica contacto con el titular, se proporcione el aviso de privacidad al primer contacto con el titular, cumpliendo con las regulaciones de privacidad y garantizando que el titular esté informado sobre el tratamiento de sus datos."
+        },
+        {
+          "id": 55,
+          "texto": "35) ¿El aviso de privacidad es visible y redactado con lenguaje claro?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que los avisos de privacidad deben ser visibles y redactados con lenguaje claro."
+        },
+        {
+          "id": 56,
+          "texto": "36) ¿Se establecen las opciones disponibles para el tratamiento de datos personales dentro de las políticas de privacidad?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan las opciones disponibles para el tratamiento de datos personales."
+        },
+        {
+          "id": 57,
+          "texto": "37) ¿Se les informa a los titulares las opciones disponibles de recopilación, uso, divulgación?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan los lineamientos para que el usuario conozca el medio de obtención, uso y divulgación de sus datos personales."
+        },
+        {
+          "id": 58,
+          "texto": "38) ¿Se les informa a los titulares el tipo de consentimiento requeridos (tácito o expreso) según los datos personales solicitados?",
+          "planAccion": "Asegurar que el aviso de privacidad informe claramente a los titulares sobre el tipo de consentimiento requerido (tácito o expreso) según el tipo de datos personales solicitados, garantizando que el consentimiento se obtenga de manera adecuada y conforme a las normativas de privacidad."
+        },
+        {
+          "id": 65,
+          "texto": "39) ¿Si existen nuevos propósitos y usos que no fueron indicados en el aviso de privacidad, este es actualizado y comunicado al titular para obtener su consentimiento, según corresponda?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan que se deben actualizar los avisos de privacidad en caso de que existan propósitos que no fueron indicados."
+        },
+        {
+          "id": 66,
+          "texto": "40) ¿Al obtener, usar o divulgar datos personales se obtiene el consentimiento expreso y por escrito de parte del titular?",
+          "planAccion": "Implementar un proceso para obtener el consentimiento expreso y por escrito del titular antes de recolectar, utilizar o divulgar sus datos personales, asegurando que el consentimiento sea claro, informado y documentado adecuadamente conforme a las leyes de privacidad."
+        },
+        {
+          "id": 67,
+          "texto": "41) El consentimiento es obtenido previo a que los datos personales sean transferidos desde/hacia computadoras?",
+          "planAccion": "Asegurar que el consentimiento del titular se obtenga antes de que sus datos personales sean transferidos desde o hacia computadoras o sistemas, garantizando que el titular esté informado sobre la transferencia y las finalidades de la misma."
+        }
+      ]
+    },
+    {
+      "key": "tabla3",
+      "numero": 3,
+      "titulo": "RECOPILACIÓN & CREACIÓN",
+      "preguntas": [
+        {
+          "id": 68,
+          "texto": "1) ¿Las políticas de privacidad de la entidad regulan la obtención de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad que regulen la obtención de datos personales."
+        },
+        {
+          "id": 69,
+          "texto": "2) El titular/interesado es informado que los datos personales obtenidos serán utilizados únicamente para los propósitos descritos en el aviso de privacidad?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que los titulares/interesados deben ser informados en el aviso de privacidad sobre el uso de sus datos personales."
+        },
+        {
+          "id": 70,
+          "texto": "3) ¿Las categorías de datos personales obtenidos y el uso de cookies para almacenar datos están documentadas y escritos en el aviso?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que las categorías de datos personales y el uso de cookies se documentará en el aviso de privacidad."
+        },
+        {
+          "id": 71,
+          "texto": "4) ¿Los datos personales a obtener se limitan a la información necesaria para cubrir los propósitos indicados en el aviso de privacidad?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe únicamente obtener los datos personales necesarios para cubrir los propósitos indicados en el aviso de privacidad."
+        },
+        {
+          "id": 72,
+          "texto": "5) ¿Si existen nuevos propósitos y usos que no fueron indicados en el aviso de privacidad, este es actualizado y comunicado al titular para obtener su consentimiento, según corresponda?",
+          "planAccion": "Actualizar el aviso de privacidad en caso de que surjan nuevos propósitos o usos para los datos personales que no fueron indicados inicialmente. Asegurar que el aviso actualizado sea comunicado a los titulares y obtener su consentimiento explícito, según corresponda, antes de realizar cualquier tratamiento adicional."
+        },
+        {
+          "id": 73,
+          "texto": "6) ¿En caso de que haya habido cambios en las finalidades y se requiera el consentimiento ¿se solicita el consentimiento y se da a conocer el nuevo aviso de privacidad?",
+          "planAccion": "Solicitar el consentimiento explícito de los titulares antes de proceder con el nuevo tratamiento y proporcionar el nuevo aviso de privacidad para que estén informados sobre las modificaciones y puedan tomar decisiones informadas sobre sus datos."
+        },
+        {
+          "id": 74,
+          "texto": "7) ¿Se cuenta con un listado de medios de obtención aceptados?",
+          "planAccion": "Crear y mantener un listado de los medios de obtención de datos personales aceptados, asegurando que todos los métodos utilizados para recopilar información cumplan con las normativas de privacidad y que sean adecuados para el tipo de datos solicitados."
+        },
+        {
+          "id": 75,
+          "texto": "8) ¿Los métodos de obtención de datos personales son revisados por la Gerencia antes de ser implementados, con la finalidad de garantizar que los datos personales son obtenidos a) honestamente, sin intimidación o engaño, b) legalmente, acorde a las reglas legales, sin importar si proceden de estatutos o leyes comunes, relacionadas con la obtención de datos personales?",
+          "planAccion": "Establecer un procedimiento para que todos los métodos de obtención de datos personales sean honestos y legales. Los cuales deben ser revisados y aprobados por la Gerencia antes de ser implementados."
+        },
+        {
+          "id": 76,
+          "texto": "9) ¿La Gerencia comprueba la confiabilidad de datos personales obtenidos por terceros?",
+          "planAccion": "Establecer un procedimiento para que la Gerencia verifique la confiabilidad de los datos personales obtenidos por terceros, asegurándose de que se cumplan las normativas de privacidad y que los datos sean precisos, completos y obtenidos de manera legal y ética."
+        }
+      ]
+    },
+    {
+      "key": "tabla4",
+      "numero": 4,
+      "titulo": "USO, CONSERVACIÓN & ELIMINACIÓN",
+      "preguntas": [
+        {
+          "id": 77,
+          "texto": "1) ¿Las políticas de privacidad regulan el uso, la retención y la eliminación de los datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe regular el uso, limitación, retención y eliminación de los datos personales."
+        },
+        {
+          "id": 78,
+          "texto": "2) Si trata datos personales sensibles ¿ha verificado que dicho tratamiento obedezca a alguno de los supuestos permitidos por la regulación aplicable?",
+          "planAccion": "Verificar que el tratamiento de datos personales sensibles esté en cumplimiento con la regulación aplicable, asegurándose de que se base en uno de los supuestos permitidos por la legislación."
+        },
+        {
+          "id": 79,
+          "texto": "3) ¿Se cuentan con bases de datos que contengan datos personales sensibles?",
+          "planAccion": "Identificar y clasificar todas las bases de datos que contengan datos personales sensibles, asegurando que se implementen medidas de seguridad adicionales y controles estrictos para proteger esta información, conforme a la normativa aplicable."
+        },
+        {
+          "id": 80,
+          "texto": "4) ¿Ha establecido el plazo de conservación de los datos personales? ",
+          "planAccion": "Establecer y documentar un plazo de conservación para cada tipo de dato personal, basado en las finalidades del tratamiento y en las normativas aplicables."
+        },
+        {
+          "id": 81,
+          "texto": "5) ¿considera en este plazo los tres elementos esenciales: a) tiempo necesario para llevar a cabo las finalidades, b) cumplimiento de aspectos legales, administrativos, contables, fiscales, jurídicos e históricos, ¿y c) periodo de bloqueo (plazos legales y contractuales para demostrar posibles responsabilidades)?",
+          "planAccion": "Establecer plazos de conservación basados en finalidades, requisitos legales y posibles responsabilidades, garantizando eliminación o resguardo seguro, con revisión periódica conforme a la normativa aplicable."
+        },
+        {
+          "id": 82,
+          "texto": "6) En caso de manejar datos sensibles ¿se limita al mínimo indispensable el periodo de tratamiento?",
+          "planAccion": "Establecer procedimientos estrictos para garantizar que el tratamiento de datos sensibles se limite al mínimo indispensable, tanto en cantidad como en duración."
+        },
+        {
+          "id": 83,
+          "texto": "7) ¿Se sigue un proceso definido para la eliminación o resguardo de los datos personales cuando ya no son requeridos?",
+          "planAccion": "Establecer un proceso definido y documentado para la eliminación o resguardo seguro de los datos personales cuando ya no sean requeridos."
+        }
+      ]
+    },
+    {
+      "key": "tabla5",
+      "numero": 5,
+      "titulo": "ACCESO",
+      "preguntas": [
+        {
+          "id": 84,
+          "texto": "1) ¿Se han establecido un proceso para el acceso de los titulares a sus datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se norme la provisión de acceso a los titulares/interesados sobre sus datos personales."
+        },
+        {
+          "id": 85,
+          "texto": "2) ¿Se informa a titulares acerca de cómo obtener, revisar, modificar o rectificar sus datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que se debe informar a los titulares/interesados acerca de cómo obtener, revisar, modificar o rectificar sus datos personales."
+        },
+        {
+          "id": 86,
+          "texto": "3) Se autentica a los titulares/interesados ante una solicitud de acceso a sus datos personales?",
+          "planAccion": "Establecer un proceso de autenticación riguroso para verificar la identidad de los titulares o interesados que soliciten acceso a sus datos personales, asegurando que se utilicen mecanismos apropiados para confirmar que la solicitud proviene del titular legítimo, protegiendo así la privacidad y seguridad de los datos."
+        },
+        {
+          "id": 87,
+          "texto": "4) ¿Se cuenta con un formato de entrega de datos personales que sea entendible y legible?",
+          "planAccion": "Crear un formato estandarizado para la entrega de datos personales que sea claro, legible y comprensible para los titulares."
+        },
+        {
+          "id": 88,
+          "texto": "5) ¿Los datos se entregan en un plazo de tiempo razonable, y con un costo razonable?",
+          "planAccion": "Establecer un procedimiento para asegurar que los datos personales se entreguen a los titulares en un plazo razonable, según lo estipulado por la normativa aplicable, y que el costo asociado a la entrega de los datos sea razonable y no excesivo, en cumplimiento con las leyes de protección de datos."
+        },
+        {
+          "id": 89,
+          "texto": "6) ¿Se les informa a los titulares la justificación por la que se denegó el acceso a sus datos personales?",
+          "planAccion": "Asegurar que, en caso de que se deniegue el acceso a los datos personales, se proporcione una justificación clara y comprensible a los titulares, explicando las razones por las cuales su solicitud no puede ser atendida, conforme a lo establecido por las leyes de protección de datos."
+        },
+        {
+          "id": 90,
+          "texto": "7) ¿Se les informa a los titulares sobre como ejercer el derecho de rectificación?",
+          "planAccion": "Incluir en el aviso de privacidad y en las comunicaciones relacionadas, información clara y detallada sobre cómo los titulares pueden ejercer su derecho de rectificación de datos personales, especificando el procedimiento, los requisitos, los plazos y los medios disponibles para realizar dicha solicitud."
+        },
+        {
+          "id": 91,
+          "texto": "8) ¿Se contacta a terceros que usen los datos personales para notificarles de la rectificación?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que se debe proporcionar los datos personales al titular en un formato compatible, actualizado, estructurado, común, interoperable y de lectura mecánica, preservando sus características, en un plazo de tiempo razonable y en un costo razonable."
+        },
+        {
+          "id": 92,
+          "texto": "9) En caso de rechazar una rectificación de datos personales se le informa por escrito a los titulares/interesados y se explica el proceso de reclamación de la decisión?",
+          "planAccion": "Establecer un procedimiento para que, en caso de rechazar una solicitud de rectificación de datos personales, se informe por escrito a los titulares o interesados, explicando claramente las razones del rechazo. Y detallar el proceso de reclamación de la decisión, incluyendo los mecanismos disponibles para apelar y los plazos establecidos para hacerlo."
+        }
+      ]
+    },
+    {
+      "key": "tabla6",
+      "numero": 6,
+      "titulo": "DIVULGACIÓN A TERCEROS",
+      "preguntas": [
+        {
+          "id": 93,
+          "texto": "1) ¿Se cuenta con una política y procedimiento de transferencia de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad que rijan la divulgación de datos personales a terceras partes."
+        },
+        {
+          "id": 94,
+          "texto": "2) ¿Se informa al titular en el aviso de privacidad sobre la posibilidad de transferencias, indicando a quién se transferirán los datos y con qué fines?",
+          "planAccion": "Asegurar que el aviso de privacidad informe claramente al titular sobre la posibilidad de transferencias de sus datos personales, especificando a quién se transferirán los datos, con qué fines y las medidas de seguridad adoptadas para proteger la información."
+        },
+        {
+          "id": 95,
+          "texto": "3) ¿Se solicita el consentimiento de los titulares para la transferencia?",
+          "planAccion": "Solicitar el consentimiento explícito de los titulares antes de realizar cualquier transferencia de sus datos personales, asegurando que comprendan los fines de la transferencia y los destinatarios, y proporcionando una opción clara para otorgar o rechazar dicho consentimiento."
+        },
+        {
+          "id": 96,
+          "texto": "4) ¿Comunica el aviso de privacidad a encargados y terceros siempre que lleva a cabo una remisión o transferencia?",
+          "planAccion": "Asegurar que el aviso de privacidad se comunique a los encargados del tratamiento y a los terceros a quienes se realice una remisión o transferencia de datos personales, garantizando que estén informados sobre las políticas y responsabilidades en cuanto al tratamiento y protección de dichos datos."
+        },
+        {
+          "id": 97,
+          "texto": "5) ¿Cuándo comunica datos personales, celebra algún instrumento jurídico con el receptor de los datos, en el que conste que comunicó el aviso de privacidad y la obligación que tienen de realizar el tratamiento de acuerdo a lo establecido en dicho aviso?",
+          "planAccion": "Establecer un proceso para que, al comunicar datos personales a terceros, se celebre un instrumento jurídico (como un contrato o acuerdo de confidencialidad) en el que se detalle que el receptor ha recibido el aviso de privacidad y se compromete a realizar el tratamiento de los datos de acuerdo con las políticas y regulaciones establecidas en el mismo."
+        },
+        {
+          "id": 98,
+          "texto": "6) ¿Los acuerdos con el encargado se basan en lo previsto en el aviso de privacidad en el que se definieron las condiciones del tratamiento?",
+          "planAccion": "Asegurar que los acuerdos con los encargados del tratamiento de datos estén basados en lo previsto en el aviso de privacidad, definiendo claramente las condiciones del tratamiento, las obligaciones de cada parte y las medidas de seguridad que deben implementarse para proteger los datos personales."
+        },
+        {
+          "id": 99,
+          "texto": "7) ¿Se autorizan las subcontrataciones que realice(n) el(los) encargado(s), que involucren el tratamiento de datos personales y queda establecida a nivel de contrato esta obligación, en caso de que se presente este tema de subcontratación?",
+          "planAccion": "Establecer una cláusula en los contratos con los encargados del tratamiento que autorice explícitamente las subcontrataciones relacionadas con el tratamiento de datos personales, asegurando que cualquier subcontratación sea aprobada previamente por el responsable del tratamiento. Y asegurar que se incluya una obligación en el contrato para que el encargado garantice que sus subcontratistas cumplan con las mismas condiciones de protección de datos establecidas en el contrato principal."
+        },
+        {
+          "id": 100,
+          "texto": "8) ¿Cuenta con evidencia de que las transferencias se realizaron de acuerdo con lo que señala la norma (ej. finalidades que establece el aviso de privacidad y a los terceros ahí señalados, medidas de protección de datos, entre otros.)?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que solo se divulgan datos personales con terceras partes para propósitos establecidos en los avisos de privacidad."
+        },
+        {
+          "id": 101,
+          "texto": "9) ¿Tiene establecido procedimientos para verificar que se cumplan con los principios y obligaciones en materia de protección de datos personales y realicen el tratamiento de conformidad con lo dispuesto en el aviso de privacidad por parte de los encargados?",
+          "planAccion": "Establecer procedimientos de revisión periódica para verificar que los encargados del tratamiento cumplan con los principios y obligaciones en materia de protección de datos personales, y que el tratamiento se realice conforme a lo dispuesto en el aviso de privacidad."
+        },
+        {
+          "id": 102,
+          "texto": "10) ¿Verifica que el encargado cumpla con sus obligaciones en torno a la protección de los datos personales",
+          "planAccion": "Implementar un proceso de verificación regular para asegurar que los encargados del tratamiento cumplan con sus obligaciones en cuanto a la protección de datos personales."
+        },
+        {
+          "id": 103,
+          "texto": "11) ¿La política de privacidad y los procedimientos mencionan que es necesario recabar el consentimiento previo a nuevos usos y propósitos para transferir datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que solo se divulgan datos personales para nuevos propósitos con terceras partes cuando se tenga consentimiento del titular."
+        },
+        {
+          "id": 104,
+          "texto": "12) ¿La compañía solicita el consentimiento y pone a disposición del titular el aviso de privacidad cuando es receptora de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan acciones de remediación en respuesta al mal uso de datos personales efectuado por terceras partes a las que se les ha transferido dichos datos."
+        }
+      ]
+    },
+    {
+      "key": "tabla7",
+      "numero": 7,
+      "titulo": "SEGURIDAD DE LA PRIVACIDAD",
+      "preguntas": [
+        {
+          "id": 105,
+          "texto": "1) ¿Las políticas de seguridad consideran la protección de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad que establezcan la seguridad para los datos personales."
+        },
+        {
+          "id": 106,
+          "texto": "2) ¿Las políticas de seguridad están definidas bajo algún marco de trabajo o estándar específico?",
+          "planAccion": "Generar un programa de seguridad /ciberseguridad considerando buenas prácticas, marcos de trabajo y estándares de la industria. "
+        },
+        {
+          "id": 107,
+          "texto": "3) ¿Las políticas de protección de datos personales son revisadas por la dirección o en caso de algún cambio relevante en la Compañía?",
+          "planAccion": "Generar un proceso de revisión periódica de las políticas, procedimientos y controles de protección de datos personales."
+        },
+        {
+          "id": 108,
+          "texto": "4) ¿Se les informa a los titulares de las medidas de seguridad implementadas sobre sus datos personales, por ejemplo, en el aviso de privacidad, vía mail, etc.?",
+          "planAccion": "Establecer un plan de comunicación a los titulares sobre las medidas de seguridad implementadas sobre sus datos personales."
+        },
+        {
+          "id": 109,
+          "texto": "5) ¿Se cuenta con una política y procedimiento documentado para la generación de respaldos de la información que contiene datos personales? ",
+          "planAccion": "Establecer una política y procedimientos para la obtención y administración de información que contiene datos personales."
+        },
+        {
+          "id": 110,
+          "texto": "6) ¿Se realizan respaldos de la información contenida en los sistemas/aplicaciones/equipos que procesan o almacenan datos personales? ",
+          "planAccion": "Establecer una política y procedimientos para la obtención y administración de información que contiene datos personales."
+        },
+        {
+          "id": 111,
+          "texto": "7) ¿Se tienen registros de auditoría en la infraestructura que involucra el manejo de datos personales?",
+          "planAccion": "Definir la obtención, monitoreo y revisión de registros de auditoría en la infraestructura que soporta el manejo de datos personales."
+        },
+        {
+          "id": 112,
+          "texto": "8) ¿Se realizan actividades de monitoreo de red y de seguridad?",
+          "planAccion": "Generar un programa de seguridad /ciberseguridad donde se considere el monitoreo de red."
+        },
+        {
+          "id": 113,
+          "texto": "9) ¿Se realizan validaciones de los respaldos generados?",
+          "planAccion": "Definir la obtención, monitoreo y revisión de registros de auditoría en la infraestructura que soporta el manejo de datos personales."
+        },
+        {
+          "id": 114,
+          "texto": "10) ¿Se cuenta con un procedimiento para la gestión de vulnerabilidades?",
+          "planAccion": "Generar un programa de seguridad /ciberseguridad donde se considere la gestión de vulnerabilidades incluyendo la infraestructura tecnológica que soporta el manejo de datos personales."
+        },
+        {
+          "id": 115,
+          "texto": "11) ¿El alcance de los análisis de vulnerabilidades cubre todos los sistemas/aplicaciones/infraestructura que manejan datos personales?",
+          "planAccion": "Generar un programa de seguridad /ciberseguridad donde se considere la gestión de vulnerabilidades incluyendo la infraestructura tecnológica que soporta el manejo de datos personales."
+        },
+        {
+          "id": 116,
+          "texto": "12) ¿Se cuenta con un inventario de vulnerabilidades clasificadas con base en su criticidad?",
+          "planAccion": "Generar un programa de seguridad /ciberseguridad donde se considere la gestión de vulnerabilidades incluyendo la infraestructura tecnológica que soporta el manejo de datos personales."
+        },
+        {
+          "id": 117,
+          "texto": "13) ¿Se realiza un proceso de re-testing de vulnerabilidades?",
+          "planAccion": "Generar un programa de seguridad /ciberseguridad donde se considere la gestión de vulnerabilidades incluyendo la infraestructura tecnológica que soporta el manejo de datos personales."
+        },
+        {
+          "id": 118,
+          "texto": "14) ¿Se cuentan con políticas de seguridad para el desarrollo de software?",
+          "planAccion": "Definir políticas y procedimientos para el desarrollo de software que considere controles de seguridad de la información."
+        },
+        {
+          "id": 119,
+          "texto": "15) ¿Se tienen definidos con los requerimientos de seguridad (p. ej. seguridad de los datos, control de acceso, integridad de transacciones, separación de funciones, tiempo de actividad, logs, etc.) y los requisitos funcionales? De ser así, ¿se toman en consideración para el desarrollo o adquisición de software e infraestructura que manejará datos personales?",
+          "planAccion": "Definir políticas y procedimientos para el desarrollo de software que considere controles de seguridad de la información."
+        },
+        {
+          "id": 120,
+          "texto": "16) ¿Realizan actividades para validar que no haya efectos negativos después de realizar cambios en las plataformas operativas?",
+          "planAccion": "Definir políticas y procedimientos para el desarrollo de software que considere controles y acciones a efectuar post implementación de la solución."
+        },
+        {
+          "id": 121,
+          "texto": "17) ¿Se realizan pruebas de seguridad cuando se a quiere algún software, sistema o aplicación que maneje datos personales, previo a su implementación y cuando existe alguna actualización de versión mayor?",
+          "planAccion": "Definir políticas y procedimientos para el desarrollo de software que considere la realización de pruebas de seguridad en el caso de una implementación de una solución que maneje datos personales."
+        },
+        {
+          "id": 122,
+          "texto": "18) ¿Se cuenta con una guía para el establecimiento formal de requerimientos de seguridad cuando se trabaja con proveedores, incluyendo para infraestructura y aplicaciones en la nube?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya los lineamientos para la gestión de proveedores de infraestructura y aplicaciones (incluso aquellas en la nube). "
+        },
+        {
+          "id": 123,
+          "texto": "19) ¿Se firman acuerdos de confidencialidad y no divulgación con los proveedores que aprovisionan tecnología de información?",
+          "planAccion": "Establecer acuerdos de confidencialidad y no divulgación de la información con proveedores de TI."
+        },
+        {
+          "id": 124,
+          "texto": "20) ¿Se tienen establecidos niveles de servicio con los proveedores y se le da seguimiento a su cumplimiento?",
+          "planAccion": "Establecer un proceso para la definición y monitoreo de acuerdos de niveles de servicio con proveedores de TI."
+        },
+        {
+          "id": 125,
+          "texto": "21) ¿Se tienen las líneas base de control que se deberán de tener con los proveedores o terceros de acuerdo al tipo y criticidad de la información a la que acceden, considerando datos personales sensibles?",
+          "planAccion": "Establecer lineamientos que normen los controles que deberían tener los proveedores o terceros que vayan a trabajar con información que contiene datos personales."
+        },
+        {
+          "id": 126,
+          "texto": "22) ¿Se tiene un inventario de proveedores/terceros donde se identifique cuáles tienen acceso a información sensible de la organización?",
+          "planAccion": "Definir un registro de proveedores o terceros de la Compañía que tienen acceso a información que contiene datos personales."
+        },
+        {
+          "id": 127,
+          "texto": "23) ¿Se cuenta con procedimientos documentados para la gestión y respuesta a incidentes de seguridad de la información?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya la gestión y respuesta a incidentes o vulneraciones de seguridad de la información. "
+        },
+        {
+          "id": 128,
+          "texto": "24) ¿Se cuenta con un procedimiento para la notificación de incidentes en caso de que la información de los titulares se vea comprometida, en materia de protección de datos personales?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya la gestión y respuesta a incidentes o vulneraciones de seguridad de la información. "
+        },
+        {
+          "id": 129,
+          "texto": "25) ¿Se cuenta con una base de datos de eventos de seguridad de la información para minimizar el impacto de eventos similares en el futuro? ",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya la gestión y respuesta a incidentes o vulneraciones de seguridad de la información. "
+        },
+        {
+          "id": 130,
+          "texto": "26) ¿Existe una clasificación de eventos de seguridad de la información?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya la gestión y respuesta a incidentes o vulneraciones de seguridad de la información. "
+        },
+        {
+          "id": 131,
+          "texto": "27) ¿Se tiene una metodología documentada y formalizada de análisis de riesgos con un enfoque de continuidad operativa y que comprenda al menos las fases de identificación, análisis, evaluación y tratamiento de riesgos?",
+          "planAccion": "Definir un proceso de administración de la continuidad de negocio en la Compañía que incluya una metodología para el análisis, evaluación y tratamiento de riesgos. "
+        },
+        {
+          "id": 132,
+          "texto": "28) ¿Se cuenta con un plan de continuidad de negocio? ",
+          "planAccion": "Definir un proceso de administración de la continuidad de negocio en la Compañía que incluya con estrategias y procedimientos de contigencia para operar durante un evento de desastre."
+        },
+        {
+          "id": 133,
+          "texto": "29) ¿Existen planes documentados dentro del BCP (Business Continuity Plan) para manejar la interrupción de los procesos comerciales y restaurar/disponer de la información?",
+          "planAccion": "Definir un proceso de administración de la continuidad de negocio en la Compañía que incluya con estrategias y procedimientos de contigencia para operar durante un evento de desastre."
+        },
+        {
+          "id": 134,
+          "texto": "30) ¿Se revisan y actualizan los planes de continuidad del negocio?",
+          "planAccion": "Definir un proceso de revisión y actualización periodica de los diferentes elementos de continuidad de negocio de la Compañía."
+        },
+        {
+          "id": 135,
+          "texto": "31) ¿Se tiene un proceso de capacitación y concientización para los empleados involucrados en los Planes de Continuidad?",
+          "planAccion": "Definir un programa de entrenamiento (capacitaciones y sensibilizaciones) para todo el personal interno y externo sobre temas de continuidad de negocio."
+        },
+        {
+          "id": 136,
+          "texto": "32) ¿Se tienen un BIA documentado con criticidad de sus procesos comerciales?",
+          "planAccion": "Definir un proceso de administración de la continuidad de negocio en la Compañía que incluya el análisis de impacto en el negocio (BIAs)."
+        },
+        {
+          "id": 137,
+          "texto": "33) ¿Se han identificado y documentado los valores específicos de RTO y RPO en el BIA?",
+          "planAccion": "Definir un proceso de administración de la continuidad de negocio en la Compañía que incluya con estrategias y procedimientos de contigencia para operar durante un evento de desastre."
+        },
+        {
+          "id": 138,
+          "texto": "34) ¿Se realizan procesos de validación de configuraciones de recuperación y ejercicios técnicos de recuperación?",
+          "planAccion": "Definir un programa de pruebas de las diferentes estrategias y procedimientos de continuidad. "
+        },
+        {
+          "id": 139,
+          "texto": "35) ¿Se actualizan regularmente las medidas de seguridad implementadas?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya el proceso de revisión y actualización de las medidas y controles de seguridad implementados."
+        },
+        {
+          "id": 140,
+          "texto": "36) ¿Existen políticas relacionadas con la seguridad de la información en la Compañía?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya las políticas, procedimientos y controles de seguridad para la Compañía."
+        },
+        {
+          "id": 141,
+          "texto": "37) ¿Están definidas las políticas de seguridad bajo algún marco de trabajo o estándar específico?",
+          "planAccion": "Generar un programa de seguridad /ciberseguridad considerando buenas prácticas, marcos de trabajo y estándares de la industria. "
+        },
+        {
+          "id": 142,
+          "texto": "38) ¿Se gestiona formalmente el ciclo de vida de las políticas de seguridad (desarrollo, aprobación, publicación y mantenimiento)?",
+          "planAccion": "Establecer un proceso de mantenimiento de las políticas, procedimientos y controles de seguridad para la Compañía."
+        },
+        {
+          "id": 143,
+          "texto": "39) ¿Cuenta la organización con un modelo de gobierno de seguridad y un área responsable de implementar proyectos y controles de seguridad?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya el modelo de gobierno con funciones, roles y responsabilidades."
+        },
+        {
+          "id": 144,
+          "texto": "40) ¿Se cuenta con matrices RASCI documentadas?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya el modelo de gobierno con funciones, roles y responsabilidades."
+        },
+        {
+          "id": 145,
+          "texto": "41) ¿Se involucra al área de seguridad en la gestión de proyectos de TI o proyectos tecnológicos?",
+          "planAccion": "Establecer un proceso para la gestión de proyectos de TI donde se incluya aspectos de seguridad de la información."
+        },
+        {
+          "id": 146,
+          "texto": "42) ¿Se cuenta con un programa de capacitación y concientización para los empleados sobre la protección de datos personales?",
+          "planAccion": "Definir un programa de entrenamiento (capacitaciones y sensibilizaciones) para todo el personal interno y externo que contenga temas y aspectos de protección de datos personales."
+        },
+        {
+          "id": 147,
+          "texto": "43) ¿Se mide la efectividad del programa de capacitación y concientización sobre protección de datos personales?",
+          "planAccion": "Definir un programa de entrenamiento (capacitaciones y sensibilizaciones) para todo el personal interno y externo que contenga temas y aspectos de protección de datos personales."
+        },
+        {
+          "id": 148,
+          "texto": "44) ¿Se llevan a cabo capacitaciones y/o campañas de concientización regularmente sobre la protección de datos personales?",
+          "planAccion": "Definir un programa de entrenamiento (capacitaciones y sensibilizaciones) para todo el personal interno y externo que contenga temas y aspectos de protección de datos personales."
+        },
+        {
+          "id": 149,
+          "texto": "45) ¿Se cuenta con un procedimiento disciplinario en caso de que los empleados incumplan las políticas de seguridad de la información, que incluya protección de datos personales?",
+          "planAccion": "Definir un procedimiento disciplinario para los empleados que incumplan las políticas, directrices o lineamientos de seguridad de la información incluyendo datos personales."
+        },
+        {
+          "id": 150,
+          "texto": "46) ¿Se firman acuerdos de confidencialidad y no divulgación con los empleados de nuevo ingreso?",
+          "planAccion": "Incluir la firma de acuerdos de confidencialidad y no divulgación de información con los empleados nuevos, como parte de su proceso de incorporación en la Compañía. Además definir un proceso de actualización anual de estos acuerdos."
+        },
+        {
+          "id": 151,
+          "texto": "47) ¿Existen y está implementados procedimientos para evitar el acceso físico indebido a los datos personales?",
+          "planAccion": "Establecer una política y procedimientos para la administración de los accesos físicos a infraestructura o elementos que soportan datos personales."
+        },
+        {
+          "id": 152,
+          "texto": "48) ¿Se cuenta con una política de control de acceso a la información?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya políticas, procedimientos y controles para el acceso a la información."
+        },
+        {
+          "id": 153,
+          "texto": "49) ¿Se tienen implementadas prácticas para el control de acceso lógico a los activos de información?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya políticas, procedimientos y controles para el acceso a la información."
+        },
+        {
+          "id": 154,
+          "texto": "50) ¿Se cuenta con un proceso para la asignación de roles y perfiles?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya políticas, procedimientos y controles para el acceso a la información."
+        },
+        {
+          "id": 155,
+          "texto": "51) ¿Se realiza una gestión formal de accesos (altas, bajas y cambios) en los sistemas, aplicaciones, bases de datos y servidores que manejan datos personales?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya políticas, procedimientos y controles para el acceso a la información."
+        },
+        {
+          "id": 156,
+          "texto": "52) ¿Se cuenta con un proceso de revisión de accesos?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya políticas, procedimientos y controles para el acceso a la información."
+        },
+        {
+          "id": 157,
+          "texto": "53) ¿Se utilizan métodos de autenticación para acceder a los sistemas/aplicaciones que manejan datos personales?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya políticas, procedimientos y controles para la autenticación de usuarios."
+        },
+        {
+          "id": 158,
+          "texto": "54) ¿Existe una política de contraseñas establecida para los sistemas/aplicaciones que manejan datos personales?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya políticas, procedimientos y controles para la autenticación de usuarios."
+        },
+        {
+          "id": 159,
+          "texto": "55) ¿Se tienen controles implementados para detectar y prevenir virus, código malicioso y software no autorizado?",
+          "planAccion": "Generar un programa de seguridad / ciberseguridad que incluya políticas, procedimientos y controles para la prevención de virus, código malicioso y software no autorizado."
+        },
+        {
+          "id": 160,
+          "texto": "56) ¿Existen y están implementados procedimientos para evitar el acceso físico indebido a los datos personales?",
+          "planAccion": "Establecer una política y procedimientos para la administración de los accesos físicos a infraestructura o elementos que soportan datos personales."
+        },
+        {
+          "id": 161,
+          "texto": "57) ¿Se cuentan con controles de acceso físico y medidas de seguridad físicas para proteger los activos de información?",
+          "planAccion": "Establecer una política y procedimientos para la administración de los accesos físicos a infraestructura o elementos que soportan datos personales."
+        },
+        {
+          "id": 162,
+          "texto": "58) ¿Se tienen procedimientos implementados para evitar el acceso físico indebido a los datos personales?",
+          "planAccion": "Establecer una política y procedimientos para la administración de los accesos físicos a infraestructura o elementos que soportan datos personales."
+        },
+        {
+          "id": 163,
+          "texto": "59) ¿Se tienen controles implementados para regular el acceso a los sitios donde se procesa y almacena información sensible?",
+          "planAccion": "Establecer una política y procedimientos para la administración de los accesos físicos a infraestructura o elementos que soportan datos personales."
+        },
+        {
+          "id": 164,
+          "texto": "60) ¿Se tienen controles o medidas de seguridad implementadas para la transferencia de información personal?",
+          "planAccion": "Establecer controles y medidas de seguridad para la transferencia que contenga datos personales dentro de la Compañía y a entidades externas."
+        },
+        {
+          "id": 165,
+          "texto": "61) ¿Se tienen definidos los lineamientos para establecer acuerdos de transferencia de información entre la Compañía y entidades externas? ",
+          "planAccion": "Establecer controles y medidas de seguridad para la transferencia que contenga datos personales dentro de la Compañía y a entidades externas."
+        },
+        {
+          "id": 166,
+          "texto": "62) ¿Se tiene acuerdos de confidencialidad y de no divulgación en cuanto a protección de la información?",
+          "planAccion": "Incluir la firma de acuerdos de confidencialidad y no divulgación de información con los empleados nuevos, como parte de su proceso de incorporación en la Compañía. Además, definir un proceso de actualización anual de estos acuerdos."
+        },
+        {
+          "id": 167,
+          "texto": "63) ¿Se cuenta con una política de controles de cifrado, considera la transmisión de información en tránsito?",
+          "planAccion": "Establecer controles y medidas de seguridad para la transferencia de información que contenga datos personales dentro de la Compañía y a entidades externas, incluyendo mecanismos de cifrado."
+        },
+        {
+          "id": 168,
+          "texto": "64) ¿Se tienen controles de cifrado implementados para proteger los datos en tránsito?",
+          "planAccion": "Establecer controles y medidas de seguridad para la transferencia de información que contenga datos personales dentro de la Compañía y a entidades externas, incluyendo mecanismos de cifrado."
+        },
+        {
+          "id": 169,
+          "texto": "65) ¿Se tienen controles o medidas de seguridad implementadas para proteger la información personal en medios portables?",
+          "planAccion": "Establecer controles y medidas de seguridad para la protección de la información personal en medios extraíbles."
+        },
+        {
+          "id": 170,
+          "texto": "66) ¿Los empleados tienen habilitados los puertos para utilizar medios extraíbles en sus equipos de cómputo?",
+          "planAccion": "Establecer controles y medidas de seguridad para la protección de la información personal en medios extraíbles."
+        },
+        {
+          "id": 171,
+          "texto": "67) ¿Los equipos portátiles cuentan con cifrado de disco duro?",
+          "planAccion": "Establecer controles y medidas de seguridad para la transferencia de información que contenga datos personales dentro de la Compañía y a entidades externas, incluyendo mecanismos de cifrado."
+        },
+        {
+          "id": 172,
+          "texto": "68) ¿Se emplea algún mecanismo de cifrado en equipos móviles y/o medios portables?",
+          "planAccion": "Establecer controles y medidas de seguridad para la transferencia de información que contenga datos personales dentro de la Compañía y a entidades externas, incluyendo mecanismos de cifrado."
+        },
+        {
+          "id": 173,
+          "texto": "69) ¿Se cuenta con un plan o procedimiento de pruebas sobre la eficacia de los aspectos clave de seguridad para la protección de datos personales?",
+          "planAccion": "Implementar procedimientos para llevar a cabo pruebas de eficacia de la protección de datos personales"
+        },
+        {
+          "id": 174,
+          "texto": "70) ¿Se realizan pruebas periódicas sobre la eficacia de las medidas de seguridad para la protección de datos personales?",
+          "planAccion": "Implementar procedimientos para llevar a cabo pruebas de eficacia de la protección de datos personales"
+        }
+      ]
+    },
+    {
+      "key": "tabla8",
+      "numero": 8,
+      "titulo": "CALIDAD E INTEGRIDAD DE LOS DATOS",
+      "preguntas": [
+        {
+          "id": 175,
+          "texto": "1) ¿Las políticas de privacidad establecen los lineamientos de calidad de los datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad que normen la calidad de los datos personales."
+        },
+        {
+          "id": 176,
+          "texto": "2) ¿Se les informa a los titulares que son responsables de proporcionar los datos personales a la entidad, de forma exacta e integra; así como de contactar a la entidad cuando se requiera rectificar algún dato personal?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe informar a los titulares/interesados, que son los responsables de proporcionar los datos personales de forma exacta e integra; así como de contactar cuando se requiera rectificar algún dato personal."
+        },
+        {
+          "id": 177,
+          "texto": "3) ¿Existen medidas específicas para asegurar que los datos personales tratados sean exactos, completos, pertinentes, actualizados y correctos?",
+          "planAccion": "Generar e implementar políticas de privacidad que normen la calidad de los datos personales."
+        },
+        {
+          "id": 178,
+          "texto": "4) ¿Actualiza o corrige los datos personales cuando cuenta con evidencia objetiva que así lo justifique?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe únicamente obtener los datos personales necesarios para cubrir los propósitos indicados en el aviso de privacidad."
+        },
+        {
+          "id": 179,
+          "texto": "5) Cuando ello se requiere ¿informa a los encargados que manejan bases de datos a su nombre, sobre las modificaciones realizadas a los datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe únicamente obtener los datos personales necesarios para cubrir los propósitos indicados en el aviso de privacidad."
+        }
+      ]
+    },
+    {
+      "key": "tabla9",
+      "numero": 9,
+      "titulo": "MONITOREO & CUMPLIMIENTO",
+      "preguntas": [
+        {
+          "id": 180,
+          "texto": "1) ¿Las políticas de privacidad establecen el monitoreo continuo del cumplimiento de las mismas?",
+          "planAccion": "Generar e implementar políticas de privacidad que establezcan el monitoreo y cumplimiento de los lineamientos, directrices, procedimientos y controles de privacidad."
+        },
+        {
+          "id": 181,
+          "texto": "2) ¿Se les informa a los titulares/interesados acerca del cómo ponerse en contacto con la Compañía para levantar sus consultas, quejas y controversias de privacidad?",
+          "planAccion": "Proveer e informar a los Titulares de los medios de contacto para levantar consultas o quejas."
+        },
+        {
+          "id": 182,
+          "texto": "3) ¿Se cuenta con un proceso para atender las consultas, quejas y controversias de privacidad?",
+          "planAccion": "Generar e implementar un proceso donde se establezca los pasos a seguir para la atención de consultas, quejas y controversias de privacidad."
+        },
+        {
+          "id": 183,
+          "texto": "4) ¿Se documenta y se comunica a los titulares/interesados la solución otorgada en caso de una consulta, queja o controversia?",
+          "planAccion": "Generar e implementar un proceso donde se establezca los pasos a seguir para la atención de consultas, quejas y controversias de privacidad."
+        },
+        {
+          "id": 184,
+          "texto": "5) ¿Se cuenta con proceso y sistema de supervisión y vigilancia del cumplimiento de la normativa de protección de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad y documentar y reportar los casos de incumplimiento a las políticas y procedimientos de privacidad."
+        },
+        {
+          "id": 185,
+          "texto": "6) ¿Los casos de incumplimiento a las políticas y procedimientos de privacidad son documentados y reportados, y en caso de ser necesario, se toman medidas correctivas y disciplinarias de manera oportuna?",
+          "planAccion": "Generar e implementar políticas de privacidad y documentar y reportar los casos de incumplimiento a las políticas y procedimientos de privacidad."
+        },
+        {
+          "id": 186,
+          "texto": "7) ¿Ha verificado que en su organización los datos personales se traten conforme a la normativa aplicable?",
+          "planAccion": "Generar e implementar políticas de privacidad y documentar y reportar los casos de incumplimiento a las políticas y procedimientos de privacidad."
+        },
+        {
+          "id": 187,
+          "texto": "8) ¿Se realizan revisiones y/o auditorías periódicas respecto al cumplimiento de las políticas y procedimientos de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca un plan de auditorías y revisión de los aspectos de protección de datos."
+        }
+      ]
+    }
+  ],
+  "TRACK_B": [
+    {
+      "key": "tabla11",
+      "numero": 1,
+      "titulo": "ADMINISTRACIÓN",
+      "preguntas": [
+        {
+          "id": 1,
+          "texto": "1) ¿Cuenta con una política de privacidad?",
+          "planAccion": "Generar e implementar políticas de privacidad."
+        },
+        {
+          "id": 2,
+          "texto": "2) ¿Se comunica al personal interno las políticas de privacidad y sus consecuencias por incumplimiento?",
+          "planAccion": "Una vez generadas las políticas de privacidad, comunicarlas al personal interno y externo, según corresponda."
+        },
+        {
+          "id": 3,
+          "texto": "3) ¿Cuenta con responsables para desarrollar, documentar, implementar, ejecutar, monitorear y actualizar las políticas de privacidad?",
+          "planAccion": "Definir el personal o área responsable para desarrollar, documentar, implementar, ejecutar, monitorear y actualizar las políticas de privacidad."
+        },
+        {
+          "id": 4,
+          "texto": "4) ¿Las políticas y procedimientos son revisados y alineados con los requerimientos de las leyes, normativas y/o regulaciones aplicables?",
+          "planAccion": "Generar, implementar y revisar periódicamente que las políticas y procedimientos de privacidad cumplan con los requerimientos de las leyes y regulaciones aplicables."
+        },
+        {
+          "id": 5,
+          "texto": "5) ¿Cuentan con políticas y procedimientos de clasificación de la información que incluya la clasificación de datos personales?",
+          "planAccion": "Generar e implementar políticas con los criterios de clasificación de información."
+        },
+        {
+          "id": 6,
+          "texto": "6) ¿Cuenta con un registro de actividades de tratamiento de datos efectuado bajo su responsabilidad?",
+          "planAccion": "Establecer un listado o inventario de datos personales que son tratados en los diferentes procesos de la entidad."
+        },
+        {
+          "id": 7,
+          "texto": "7) ¿Existe un proceso de análisis y evaluación de riesgos de activos donde se manejan datos personales?",
+          "planAccion": "Implementar un proceso de análisis y evaluación de riesgos de datos personales, así como desarrollar y actualizar el plan de tratamiento a dichos riesgos."
+        },
+        {
+          "id": 8,
+          "texto": "8) ¿Se hacen revisiones de los contratos para asegurar su consistencia con políticas y procedimientos de privacidad?",
+          "planAccion": "Revisar que los contratos sean consistentes con las políticas y procedimientos de privacidad generadas y dar solución a  cualquier inconsistencia, en caso de existir."
+        },
+        {
+          "id": 9,
+          "texto": "9) ¿Cuentan con un programa documentado para gestionar incidentes y violaciones de privacidad?",
+          "planAccion": "Establecer un proceso y procedimientos para la gestión de incidentes y violaciones de privacidad."
+        }
+      ]
+    },
+    {
+      "key": "tabla22",
+      "numero": 2,
+      "titulo": "ACUERDO, AVISO & COMUNICACIÓN",
+      "preguntas": [
+        {
+          "id": 10,
+          "texto": "1) ¿Se emiten avisos de privacidad a los titulares/interesados?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que se deben emitir avisos de privacidad."
+        },
+        {
+          "id": 11,
+          "texto": "2) ¿Se asegura de que los datos personales que se trata en la Compañía son necesarios,\\n adecuados y relevantes en relación con las finalidades para las cuales se obtuvieron?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que se deben emitir avisos de privacidad."
+        },
+        {
+          "id": 12,
+          "texto": "3) ¿Usted recaba datos personales, como parte de sus actividades de trabajo?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan los lineamientos de los avisos de privacidad."
+        },
+        {
+          "id": 13,
+          "texto": "4) ¿Usted recaba datos personales sensibles, como parte de sus actividades de trabajo?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan los lineamientos de los avisos de privacidad."
+        },
+        {
+          "id": 14,
+          "texto": "5) ¿Se realizan transferencias de información que contiene datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan los lineamientos de los avisos de privacidad."
+        },
+        {
+          "id": 15,
+          "texto": "6) ¿Existen transferencias de datos personales que requieren consentimiento?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan los lineamientos de los avisos de privacidad."
+        },
+        {
+          "id": 16,
+          "texto": "7) ¿Se informa sobre las opciones y medios para que el titular limite el uso y \\n divulgación de sus datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan los lineamientos de los avisos de privacidad."
+        },
+        {
+          "id": 17,
+          "texto": "8) ¿Se describen los medios y procedimientos para facilitar a los titulares \\n el ejercicio de sus derechos en relación al tratamiento de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan los lineamientos de los avisos de privacidad."
+        },
+        {
+          "id": 18,
+          "texto": "9) ¿Se les informa a los titulares las opciones disponibles de recopilación, uso, divulgación?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezcan los lineamientos para que el usuario conozca \\n el medio de obtención, uso y divulgación de sus datos personales."
+        },
+        {
+          "id": 19,
+          "texto": "10) ¿Al obtener, usar o divulgar datos personales se obtiene el consentimiento expreso y\\n por escrito de parte del titular?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que se debe conseguir el consentimiento de \\n los titulares para poder tratar sus datos personales."
+        }
+      ]
+    },
+    {
+      "key": "tabla33",
+      "numero": 3,
+      "titulo": "RECOPILACIÓN & CREACIÓN",
+      "preguntas": [
+        {
+          "id": 20,
+          "texto": "1) ¿Las políticas de privacidad de la entidad regulan la obtención de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad que regulen la obtención de datos personales."
+        },
+        {
+          "id": 21,
+          "texto": "2) ¿Los datos personales a obtener se limitan a la información necesaria para cubrir los\\n propósitos indicados en el aviso de privacidad?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe regular los medios \\nde obtención de datos personales."
+        },
+        {
+          "id": 22,
+          "texto": "3) ¿La Gerencia comprueba la confiabilidad de datos personales obtenidos por terceros?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe regular los medios \\nde obtención de datos personales."
+        }
+      ]
+    },
+    {
+      "key": "tabla44",
+      "numero": 4,
+      "titulo": "USO, CONSERVACIÓN & ELIMINACIÓN",
+      "preguntas": [
+        {
+          "id": 23,
+          "texto": "1) ¿Las políticas de privacidad regulan el uso, la retención y la eliminación de los datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe regular el uso, limitación, retención y eliminación de los datos personales."
+        },
+        {
+          "id": 24,
+          "texto": "2) Si trata datos personales sensibles ¿ha verificado que dicho tratamiento obedezca a alguno de los supuestos permitidos por la regulación aplicable?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe regular el uso, limitación, retención y eliminación de los datos personales."
+        },
+        {
+          "id": 25,
+          "texto": "3) ¿Se cuentan con bases de datos que contengan datos personales sensibles?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe regular el uso, limitación, retención y eliminación de los datos personales."
+        },
+        {
+          "id": 26,
+          "texto": "4) ¿Ha establecido el plazo de conservación de los datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe regular el uso, limitación, retención y eliminación de los datos personales."
+        },
+        {
+          "id": 27,
+          "texto": "5) ¿Se sigue un proceso definido para la eliminación o resguardo de los datos personales cuando ya no son requeridos?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe regular el uso, limitación, retención y eliminación de los datos personales."
+        }
+      ]
+    },
+    {
+      "key": "tabla55",
+      "numero": 5,
+      "titulo": "ACCESO",
+      "preguntas": [
+        {
+          "id": 28,
+          "texto": "1) ¿Se han establecido un proceso para el acceso de los titulares a sus datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se norme la provisión de acceso a los titulares/interesados sobre sus datos personales."
+        },
+        {
+          "id": 29,
+          "texto": "2) ¿Se informa a titulares acerca de cómo obtener, revisar, modificar o rectificar sus datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que se debe informar a los titulares/interesados acerca de cómo obtener, revisar, modificar o rectificar sus datos personales."
+        },
+        {
+          "id": 30,
+          "texto": "3) ¿Se autentica a los titulares/interesados ante una solicitud de acceso a sus datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que se debe proporcionar medios de solicitud a los titulares/interesados para acceder a sus datos personales."
+        },
+        {
+          "id": 31,
+          "texto": "4) ¿Se les informa a los titulares sobre como ejercer el derecho de rectificación?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que se debe proporcionar medios de solicitud a los titulares/interesados para modificar o rectificar sus datos personales."
+        }
+      ]
+    },
+    {
+      "key": "tabla66",
+      "numero": 6,
+      "titulo": "DIVULGACIÓN A TERCEROS",
+      "preguntas": [
+        {
+          "id": 32,
+          "texto": "1) ¿Se cuenta con una política y procedimiento de transferencia de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad que rijan la divulgación de datos personales a terceras partes."
+        },
+        {
+          "id": 33,
+          "texto": "2) ¿La política de privacidad y los procedimientos mencionan que es necesario recabar el consentimiento previo a nuevos usos y propósitos para transferir datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca que solo se divulgan datos personales para nuevos propósitos con terceras partes cuando se tenga consentimiento del titular."
+        }
+      ]
+    },
+    {
+      "key": "tabla77",
+      "numero": 7,
+      "titulo": "SEGURIDAD DE LA PRIVACIDAD",
+      "preguntas": [
+        {
+          "id": 34,
+          "texto": "1) ¿Se cuenta con una política y procedimiento documentado para la generación de respaldos de la información que contiene datos personales?",
+          "planAccion": "Generar un programa de seguridad que incluya Análisis y Tratamiento de riesgos."
+        },
+        {
+          "id": 35,
+          "texto": "2) ¿Se tienen registros de auditoría en la infraestructura que involucra el manejo de datos personales?",
+          "planAccion": "Generar un programa de seguridad que incluya Análisis y Tratamiento de riesgos."
+        },
+        {
+          "id": 36,
+          "texto": "3) ¿Se realizan actividades de monitoreo de red y de seguridad?",
+          "planAccion": "Generar un programa de seguridad que incluya Análisis y Tratamiento de riesgos."
+        },
+        {
+          "id": 37,
+          "texto": "4) ¿El alcance de los análisis de vulnerabilidades cubre todos los sistemas/aplicaciones/infraestructura que manejan datos personales?",
+          "planAccion": "Generar un programa de seguridad que incluya Análisis y Tratamiento de riesgos."
+        },
+        {
+          "id": 38,
+          "texto": "5) ¿Se cuentan con políticas de seguridad para el desarrollo de software?",
+          "planAccion": "Generar un programa de seguridad que incluya políticas de seguridad."
+        },
+        {
+          "id": 39,
+          "texto": "6) ¿Se cuenta con una guía para el establecimiento formal de requerimientos de seguridad cuando se trabaja con proveedores, incluyendo para infraestructura y aplicaciones en la nube?",
+          "planAccion": "Generar un programa de seguridad que incluya la estructura organizacional en materia de seguridad de la información/ciberseguridad."
+        },
+        {
+          "id": 40,
+          "texto": "7) ¿Se firman acuerdos de confidencialidad y no divulgación con los proveedores que aprovisionan tecnología de información?",
+          "planAccion": "Generar un programa de seguridad que incluya la estructura organizacional en materia de seguridad de la información/ciberseguridad."
+        },
+        {
+          "id": 41,
+          "texto": "8) ¿Se cuenta con un procedimiento para la notificación de incidentes en caso de que la información de los titulares se vea comprometida, en materia de protección de datos personales?",
+          "planAccion": "Generar un inventario de activos tecnológicos"
+        },
+        {
+          "id": 42,
+          "texto": "9) ¿Se tiene una metodología documentada y formalizada de análisis de riesgos con un enfoque de continuidad operativa y que comprenda al menos las fases de identificación, análisis, evaluación y tratamiento de riesgos?",
+          "planAccion": "Generar un programa de seguridad que incluya la estructura organizacional en materia de seguridad de la información/ciberseguridad."
+        },
+        {
+          "id": 43,
+          "texto": "10) ¿Se actualizan regularmente las medidas de seguridad implementadas?",
+          "planAccion": "Generar un programa de seguridad que incluya la seguridad de la información/ciberseguridad en el desarrollo o mantenimiento de los sistemas de información"
+        },
+        {
+          "id": 44,
+          "texto": "11) ¿Se cuenta con un programa de capacitación y concientización para los empleados sobre la protección de datos personales?",
+          "planAccion": "Generar un programa de seguridad que incluya la Gestión de continuidad del negocio"
+        },
+        {
+          "id": 45,
+          "texto": "12) ¿Existen y está implementados procedimientos para evitar el acceso físico indebido a los datos personales?",
+          "planAccion": "Generar un programa de seguridad que incluya el acceso lógico a los controles"
+        },
+        {
+          "id": 46,
+          "texto": "13) ¿Se tienen implementadas prácticas para el control de acceso lógico a los activos de información?",
+          "planAccion": "Generar un programa de seguridad que incluya el acceso lógico a los controles"
+        },
+        {
+          "id": 47,
+          "texto": "14) ¿Se utilizan métodos de autenticación para acceder a los sistemas/aplicaciones que manejan datos personales?",
+          "planAccion": "Generar un programa de seguridad que incluya el acceso lógico a los controles"
+        },
+        {
+          "id": 48,
+          "texto": "15) ¿Existe una política de contraseñas establecida para los sistemas/aplicaciones que manejan datos personales?",
+          "planAccion": "Generar un programa de seguridad que incluya el acceso lógico a los controles"
+        },
+        {
+          "id": 49,
+          "texto": "16) ¿Se tienen controles implementados para detectar y prevenir virus, código malicioso y software no autorizado?",
+          "planAccion": "Generar un programa de seguridad que incluya el acceso lógico a los controles"
+        },
+        {
+          "id": 50,
+          "texto": "17) ¿Se cuentan con controles de acceso físico y medidas de seguridad físicas para proteger los activos de información?",
+          "planAccion": "Generar e implementar una política de privacidad donde se establezcan los controles físicos para acceder a los datos personales."
+        },
+        {
+          "id": 51,
+          "texto": "18) ¿Se cuenta con una política de controles de cifrado, considera la transmisión de información en tránsito?",
+          "planAccion": "Implementar mecanismos de cifrado."
+        },
+        {
+          "id": 52,
+          "texto": "19) ¿Se tienen controles o medidas de seguridad implementadas para proteger la información personal en medios portables?",
+          "planAccion": "Implementar mecanismos de cifrado."
+        }
+      ]
+    },
+    {
+      "key": "tabla88",
+      "numero": 8,
+      "titulo": "CALIDAD E INTEGRIDAD DE LOS DATOS",
+      "preguntas": [
+        {
+          "id": 53,
+          "texto": "1) ¿Las políticas de privacidad establecen los lineamientos de calidad de los datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad que normen la calidad de los datos personales."
+        },
+        {
+          "id": 54,
+          "texto": "2) ¿Existen medidas específicas para asegurar que los datos personales tratados sean exactos, completos, pertinentes, actualizados y correctos?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se especifique que se debe informar a los titulares/interesados, que son los responsables de proporcionar los datos personales de forma exacta e integra; así como de contactar cuando se requiera rectificar algún dato personal."
+        }
+      ]
+    },
+    {
+      "key": "tabla99",
+      "numero": 9,
+      "titulo": "MONITOREO & CUMPLIMIENTO",
+      "preguntas": [
+        {
+          "id": 55,
+          "texto": "1) ¿Las políticas de privacidad establecen el monitoreo continuo del cumplimiento de las políticas y procedimientos de privacidad?",
+          "planAccion": "Generar e implementar políticas de privacidad que establezcan el monitoreo y cumplimiento de las políticas y procedimientos de seguridad"
+        },
+        {
+          "id": 56,
+          "texto": "2) ¿Se les informa a los titulares/interesados acerca del cómo ponerse en contacto con la entidad para levantar sus consultas, quejas y controversias de privacidad?",
+          "planAccion": "Proveer e informar de los medios de contacto para levantar consultas o quejas"
+        },
+        {
+          "id": 57,
+          "texto": "3) ¿Se cuenta con proceso y sistema de supervisión y vigilancia del cumplimiento de la normativa de protección de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad donde se establezca el proceso de revisión de cumplimiento."
+        },
+        {
+          "id": 58,
+          "texto": "4) ¿Se realizan revisiones y/o auditorías periódicas respecto al cumplimiento de las políticas y procedimientos de datos personales?",
+          "planAccion": "Generar e implementar políticas de privacidad y documentar y reportar los casos de incumplimiento a las políticas y procedimientos de privacidad."
+        }
+      ]
+    }
+  ],
+  "DATOS_EMPRESA": [
+    {
+      "id": 59,
+      "texto": "¿Nombre de la Empresa?"
+    },
+    {
+      "id": 60,
+      "texto": "¿Nombres completos de la persona?"
+    },
+    {
+      "id": 61,
+      "texto": "¿Cargo que ocupa en la Empresa?"
+    },
+    {
+      "id": 62,
+      "texto": "¿Correo electrónico?"
+    },
+    {
+      "id": 63,
+      "texto": "¿Teléfono de contacto?"
+    },
+    {
+      "id": 64,
+      "texto": "¿Ciudad?"
+    }
+  ]
+}
